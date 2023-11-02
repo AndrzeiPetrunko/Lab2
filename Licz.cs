@@ -22,9 +22,6 @@ namespace Lab2
         {
             Console.WriteLine(value);
         }
-        public Licz(int n)
-        {
-            this.value = n;
-        }
+        public Licz(int n) => this.value = n;
     }
 }
