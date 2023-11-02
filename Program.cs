@@ -17,7 +17,7 @@ namespace Lab2
             liczba1.Pisz();
             liczba1.Dodaj(12);
             liczba1.Pisz();
-            liczba1.Odejmij(3);
+            liczba1.Odejmij(4);
             liczba1.Pisz();
         }
         static void Zadanie2()
