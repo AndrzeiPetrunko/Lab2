@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Lab;
+using System;
 
 namespace Lab2
 {
@@ -8,6 +9,7 @@ namespace Lab2
         {
             Zadanie1();
             Zadanie2();
+            Zadanie3();
         }
         static void Zadanie1()
         {
@@ -32,8 +34,19 @@ namespace Lab2
             Console.Write("Wszystkie elementy w tablicy: ");
             obj1.WypiszWszystkie();
             obj1.Index(-1, 90);
+            Console.WriteLine();
 
 
+
+        }
+        static void Zadanie3()
+        {
+            Mydate mojaData = new Mydate();
+            Console.WriteLine("Dzisiaj jest " + mojaData.data);
+            mojaData.TDT();
+            Console.WriteLine("Dzisiaj jest " + mojaData.data);
+            mojaData.data = new DateTime(1970, 07, 28, 22, 35, 5 );
+            Console.WriteLine("Dzisiaj jest " + mojaData.data);
 
         }
 
