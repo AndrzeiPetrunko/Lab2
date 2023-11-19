@@ -7,9 +7,10 @@ namespace Lab2
     {
         static void Main(string[] args)
         {
-            Zadanie1();
+           /* Zadanie1();
             Zadanie2();
-            Zadanie3();
+            Zadanie3();*/
+            Zadanie4();
         }
         static void Zadanie1()
         {
@@ -48,6 +49,16 @@ namespace Lab2
             mojaData.data = new DateTime(1970, 07, 28, 22, 35, 5 );
             Console.WriteLine("Dzisiaj jest " + mojaData.data);
 
+        }
+        static void Zadanie4()
+        {
+            Liczba liczba = new Liczba("123");
+            liczba.Wypisywanie();
+            liczba.Mnozenie(10);
+            liczba.Wypisywanie();
+            liczba.Silnia(-2);
+            liczba.Silnia(5);
+            liczba.Silnia(0);
         }
 
     }
