@@ -60,7 +60,6 @@ namespace Lab
                 {
                     wynik *= i;
                 }
-
                 Console.WriteLine($"Silnia z {n} jest równa {wynik}");
             }
             
